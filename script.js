@@ -23,12 +23,12 @@ function criarApresentacao1_1() {
     var texto1_2_2 = document.getElementById('texto1_2_2').value;
     var texto1_2_3 = document.getElementById('texto1_2_3').value;
     var texto1_2_4 = document.getElementById('texto1_2_4').value;
-    /* puxar texto do encontro 2 */
+    /* puxar texto do encontro 3 */
     var texto1_2_1 = document.getElementById('texto1_3_1').value.slice(-2) + "/" + document.getElementById('texto1_2_1').value.slice(-5,-3) + "/" + document.getElementById('texto1_2_1').value.slice(-10,-6);
     var texto1_2_2 = document.getElementById('texto1_3_2').value;
     var texto1_2_3 = document.getElementById('texto1_3_3').value;
     var texto1_2_4 = document.getElementById('texto1_3_4').value;
-    /* puxar texto do encontro 2 */
+    /* puxar texto do encontro 4 */
     var texto1_2_1 = document.getElementById('texto1_4_1').value.slice(-2) + "/" + document.getElementById('texto1_2_1').value.slice(-5,-3) + "/" + document.getElementById('texto1_2_1').value.slice(-10,-6);
     var texto1_2_2 = document.getElementById('texto1_4_2').value;
     var texto1_2_3 = document.getElementById('texto1_4_3').value;
@@ -82,21 +82,21 @@ function criarApresentacao2_1() {
     var texto2_2_3 = document.getElementById('texto2_2_3').value;
     var texto2_2_4 = document.getElementById('texto2_2_4').value;
     /* puxar texto do encontro 3 */
-    var texto2_2_1 = document.getElementById('texto2_3_1').value.slice(-2) + "/" + document.getElementById('texto2_3_1').value.slice(-5,-3) + "/" + document.getElementById('texto2_3_1').value.slice(-10,-6);
-    var texto2_2_2 = document.getElementById('texto2_3_2').value;
-    var texto2_2_3 = document.getElementById('texto2_3_3').value;
-    var texto2_2_4 = document.getElementById('texto2_3_4').value;
+    var texto2_3_1 = document.getElementById('texto2_3_1').value.slice(-2) + "/" + document.getElementById('texto2_3_1').value.slice(-5,-3) + "/" + document.getElementById('texto2_3_1').value.slice(-10,-6);
+    var texto2_3_2 = document.getElementById('texto2_3_2').value;
+    var texto2_3_3 = document.getElementById('texto2_3_3').value;
+    var texto2_3_4 = document.getElementById('texto2_3_4').value;
     /* puxar texto do encontro 4 */
-    var texto2_2_1 = document.getElementById('texto2_4_1').value.slice(-2) + "/" + document.getElementById('texto2_3_1').value.slice(-5,-3) + "/" + document.getElementById('texto2_3_1').value.slice(-10,-6);
-    var texto2_2_2 = document.getElementById('texto2_4_2').value;
-    var texto2_2_3 = document.getElementById('texto2_4_3').value;
-    var texto2_2_4 = document.getElementById('texto2_4_4').value;
+    var texto2_4_1 = document.getElementById('texto2_4_1').value.slice(-2) + "/" + document.getElementById('texto2_4_1').value.slice(-5,-3) + "/" + document.getElementById('texto2_4_1').value.slice(-10,-6);
+    var texto2_4_2 = document.getElementById('texto2_4_2').value;
+    var texto2_4_3 = document.getElementById('texto2_4_3').value;
+    var texto2_4_4 = document.getElementById('texto2_4_4').value;
     
     /* Valida campo vazio */   
     if(texto2_1_1 != "" & texto2_1_2 != "" & texto2_1_3 != "" & texto2_1_4 != "" & texto2_2_1 != "" & texto2_2_2 != "" & texto2_2_3 != "" & texto2_2_4 != "") {
 
         /* Monta HTML */
-        document.getElementById('copiar2_1').value = '<div style="display: grid;"> <div style="margin: auto; padding: 20px 10px;"><h1 style="color: #ad0f44; padding-bottom: 10px;">Encontro 1</h1> <p style="padding: 5px 10px;"><b>Data da Realização: </b>' + texto2_1_1 + '</p> <p style="padding: 5px 10px;"><b>Horário da Realização: </b>' + texto2_1_2 + ' às ' + texto2_1_3 + '</p> <p style="padding: 7px 10px;"><a href="' + texto2_1_4 + '" target="_blank" style="background-color: #ad0f44; color: #ffffff; padding: 5px 10px; border-radius: 10px;border:#ad0f44 1px solid;">Clique aqui</a></p> </div><div style="display: grid;"> <div style="margin: auto; padding: 20px 10px;"><h1 style="color: #ad0f44; padding-bottom: 10px;">Encontro 2</h1> <p style="padding: 5px 10px;"><b>Data da Realização: </b>' + texto2_2_1 + '</p> <p style="padding: 5px 10px;"><b>Horário da Realização: </b>' + texto2_2_2 + ' às ' + texto2_2_3 + '</p> <p style="padding: 7px 10px;"><a href="' + texto2_2_4 + '" target="_blank" style="background-color: #ad0f44; color: #ffffff; padding: 5px 10px; border-radius: 10px;border:#ad0f44 1px solid;">Clique aqui</a></p> </div><div style="display: grid;"> <div style="margin: auto; padding: 20px 10px;"><h1 style="color: #ad0f44; padding-bottom: 10px;">Encontro 2</h1> <p style="padding: 5px 10px;"><b>Data da Realização: </b>' + texto2_3_1 + '</p> <p style="padding: 5px 10px;"><b>Horário da Realização: </b>' + texto2_3_2 + ' às ' + texto2_3_3 + '</p> <p style="padding: 7px 10px;"><a href="' + texto2_3_4 + '" target="_blank" style="background-color: #ad0f44; color: #ffffff; padding: 5px 10px; border-radius: 10px;border:#ad0f44 1px solid;">Clique aqui</a></p></div><div style="display: grid;"> <div style="margin: auto; padding: 20px 10px;"><h1 style="color: #ad0f44; padding-bottom: 10px;">Encontro 2</h1> <p style="padding: 5px 10px;"><b>Data da Realização: </b>' + texto2_4_1 + '</p> <p style="padding: 5px 10px;"><b>Horário da Realização: </b>' + texto2_4_2 + ' às ' + texto2_4_3 + '</p> <p style="padding: 7px 10px;"><a href="' + texto2_4_4 + '" target="_blank" style="background-color: #ad0f44; color: #ffffff; padding: 5px 10px; border-radius: 10px;border:#ad0f44 1px solid;">Clique aqui</a></p></div>';
+        document.getElementById('copiar2_1').value = '<div style="display: grid;"> <div style="margin: auto; padding: 20px 10px;"><h1 style="color: #ad0f44; padding-bottom: 10px;">Encontro 1</h1> <p style="padding: 5px 10px;"><b>Data da Realização: </b>' + texto2_1_1 + '</p> <p style="padding: 5px 10px;"><b>Horário da Realização: </b>' + texto2_1_2 + ' às ' + texto2_1_3 + '</p> <p style="padding: 7px 10px;"><a href="' + texto2_1_4 + '" target="_blank" style="background-color: #ad0f44; color: #ffffff; padding: 5px 10px; border-radius: 10px;border:#ad0f44 1px solid;">Clique aqui</a></p> </div><div style="display: grid;"> <div style="margin: auto; padding: 20px 10px;"><h1 style="color: #ad0f44; padding-bottom: 10px;">Encontro 2</h1> <p style="padding: 5px 10px;"><b>Data da Realização: </b>' + texto2_2_1 + '</p> <p style="padding: 5px 10px;"><b>Horário da Realização: </b>' + texto2_2_2 + ' às ' + texto2_2_3 + '</p> <p style="padding: 7px 10px;"><a href="' + texto2_2_4 + '" target="_blank" style="background-color: #ad0f44; color: #ffffff; padding: 5px 10px; border-radius: 10px;border:#ad0f44 1px solid;">Clique aqui</a></p> </div><div style="display: grid;"> <div style="margin: auto; padding: 20px 10px;"><h1 style="color: #ad0f44; padding-bottom: 10px;">Encontro 3</h1> <p style="padding: 5px 10px;"><b>Data da Realização: </b>' + texto2_3_1 + '</p> <p style="padding: 5px 10px;"><b>Horário da Realização: </b>' + texto2_3_2 + ' às ' + texto2_3_3 + '</p> <p style="padding: 7px 10px;"><a href="' + texto2_3_4 + '" target="_blank" style="background-color: #ad0f44; color: #ffffff; padding: 5px 10px; border-radius: 10px;border:#ad0f44 1px solid;">Clique aqui</a></p> </div><div style="display: grid;"> <div style="margin: auto; padding: 20px 10px;"><h1 style="color: #ad0f44; padding-bottom: 10px;">Encontro 4</h1> <p style="padding: 5px 10px;"><b>Data da Realização: </b>' + texto2_4_1 + '</p> <p style="padding: 5px 10px;"><b>Horário da Realização: </b>' + texto2_4_2 + ' às ' + texto2_4_3 + '</p> <p style="padding: 7px 10px;"><a href="' + texto2_4_4 + '" target="_blank" style="background-color: #ad0f44; color: #ffffff; padding: 5px 10px; border-radius: 10px;border:#ad0f44 1px solid;">Clique aqui</a></p> </div>';
 
         document.getElementById('copiar2_1').disabled = true;
         document.getElementById('div2_3').classList.remove('displayNone');
